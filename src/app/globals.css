@@ -26,7 +26,7 @@ body {
 /* Estilos para el tema oscuro */
 @media (prefers-color-scheme: dark) {
   body {
-    background: linear-gradient(to bottom, #000000, #4b0082); /* Degradado de negro a morado oscuro en modo oscuro */
+    background: linear-gradient(to bottom, #000000, #001529); /* Fondo oscuro con degradado de azul oscuro */
     color: #ffffff; /* Texto blanco */
   }
 }
