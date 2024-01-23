@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <>
       {isVisible && (
-        <Fade direction='down' duration={1000}>
+        <Fade direction='down' duration={500}>
           <header>
             <div className="m-auto flex items-center justify-center text-center">
               <button className="border-gray-600 border solid rounded-lg p-2 ml-2">sqlforce</button>
