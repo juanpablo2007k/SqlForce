@@ -25,7 +25,7 @@ import { PiFileSqlDuotone } from "react-icons/pi";
         <p className='font-bold text-1xl '>sqlForce</p>
       </div>
       <div className='md:hidden'>
-        {/* Botón de menú para dispositivos móviles */}
+      
         <button className='text-gray-700 text-lg ml-2' onClick={toggleMenu}>
           <FaBars size={30} />
         </button>
