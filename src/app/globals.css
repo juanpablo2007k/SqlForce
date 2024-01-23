@@ -16,18 +16,20 @@
   }
 }
 
+/* Estilos predeterminados para el tema claro */
+/* Estilos predeterminados para el tema claro */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, #ffffff, #330033); /* Degradado de blanco a morado oscuro */
+  color: #000000; /* Texto negro */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Estilos para el tema oscuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(to bottom, #000000, #4b0082); /* Degradado de negro a morado oscuro en modo oscuro */
+    color: #ffffff; /* Texto blanco */
   }
 }
+
+
+/* Otros estilos, como tipografía, márgenes, etc., pueden agregarse según sea necesario */
